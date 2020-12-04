@@ -11,7 +11,7 @@
 |198|[打家劫舍](https://github.com/ALOP150/leetcode-go/blob/master/dp/rob/README.md)|简单|完成|动态规划|
 |303|区域和检索 - 数组不可变  |简单|未完成|动态规划|
 |392|[判断子序列](https://github.com/ALOP150/leetcode-go/blob/master/dp/isSubsequence/README.md)|简单|完成|动态规划|
-|746|使用最小花费爬楼梯 |简单|未完成|动态规划|
+|746|[使用最小花费爬楼梯](https://github.com/ALOP150/leetcode-go/blob/master/dp/minCostClimbingStairs/README.md) |简单|未完成|动态规划|
 |1025|除数博弈 |简单|未完成|动态规划|
 |剑指Offer 42|连续子数组的最大和 *同[最大子序和](https://github.com/ALOP150/leetcode-go/maxSubArray/master/dp/rob/README.md)*|简单|完成|动态规划|
 |面试题 08.01|[三步问题](https://github.com/ALOP150/leetcode-go/blob/master/dp/waysToStep/README.md)|简单|完成|动态规划|
