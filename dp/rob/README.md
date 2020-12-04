@@ -28,7 +28,7 @@
 + `0 <= nums.length <= 100`
 + `0 <= nums[i] <= 400`
 
-> 转自力扣（LeetCode
+> 转自力扣（LeetCode）
 
 ## 题解
 **动态规划**
