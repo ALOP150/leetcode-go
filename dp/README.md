@@ -6,7 +6,7 @@
 |:--|:--|:--|:--|:--|
 |5|最长回文子串|中等|未完成|动态规划|
 |53|[最大子序和](https://github.com/ALOP150/leetcode-go/blob/master/dp/maxSubArray/README.md)|简单|完成|动态规划|
-|70|爬楼梯|简单|未完成|动态规划|
+|70|[爬楼梯](https://github.com/ALOP150/leetcode-go/blob/master/dp/climbStairs/README.md)|简单|未完成|动态规划|
 |121|买卖股票的最佳时机|简单|未完成|动态规划|
 |198|打家劫舍|简单|未完成|动态规划|
 |303|区域和检索 - 数组不可变  |简单|未完成|动态规划|
