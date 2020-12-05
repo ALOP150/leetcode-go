@@ -27,3 +27,35 @@ cost 的长度将会在 [2, 1000]。
 每一个 cost[i] 将会是一个Integer类型，范围为 [0, 999]。
 
 > 转自力扣（LeetCode）
+
+## 题解
+
+用一个`dp[n]`数组来标记到达每一层所需的最小花费, `n=len(cost)`，递推公式为`f(n)=min(f(n-1),f(n-2))+cost[i]`， 最后的结果为`min(dp[n-1], dp[n-2])`
+
+```go
+func minCostClimbingStairs(cost []int) int {
+	if len(cost) == 0 {
+		return 0
+	}
+	if len(cost) == 1 {
+		return cost[0]
+	}
+	dp := make([]int, len(cost))
+	dp[0] = cost[0]
+	dp[1] = cost[1]
+
+	for i := 2; i < len(cost); i++ {
+		dp[i] = min(dp[i-1], dp[i-2]) + cost[i]
+	}
+	return min(dp[len(cost)-1], dp[len(cost)-2])
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+
+	return b
+}
+
+```
