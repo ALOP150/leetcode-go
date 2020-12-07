@@ -17,4 +17,5 @@
 |面试题 08.01|[三步问题](https://github.com/ALOP150/leetcode-go/blob/master/dp/waysToStep/README.md)|简单|完成|动态规划|
 |面试题 16.17|连续数列*同[最大子序和](https://github.com/ALOP150/leetcode-go/maxSubArray/master/dp/rob/README.md)*|简单|完成|动态规划|
 |面试题 17.16|按摩师 *同[打家劫舍](https://github.com/ALOP150/leetcode-go/blob/master/dp/rob/README.md)*|简单|完成|动态规划|
-|300|最常上升子序列|中等|未完成|动态规划|
+|300|最长上升子序列|中等|完成|动态规划|
+|279|[完全平方数](https://github.com/ALOP150/leetcode-go/blob/master/dp/numSquares/README.md)|中等|完成|动态规划|
